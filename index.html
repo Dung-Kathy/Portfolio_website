@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio personnel de Dung Vo, etudiante en informatique passionnee par la data science, l'IA et le developpement web.">
+  <title>Dung Vo - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header" data-header>
+    <nav class="navbar" aria-label="Navigation principale">
+      <a class="brand" href="#home" aria-label="Accueil">Dung Vo</a>
+
+      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false" data-nav-toggle>
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-panel" data-nav-panel>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button class="theme-toggle" type="button" aria-label="Activer le mode sombre" data-theme-toggle>
+          <span class="theme-icon" aria-hidden="true">D</span>
+          <span class="theme-label">Sombre</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="profile-hero section">
+      <aside class="profile-media animate-in">
+        <img src="assets/photocv.png" alt="Portrait de Dung Vo" class="profile-photo">
+        <div class="profile-socials" aria-label="Liens sociaux">
+          <a href="mailto:dung.vonguyen.1102@gmail.com" aria-label="Email">@</a>
+          <a href="https://www.linkedin.com/in/dung-vo-2328282a7/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+          <a href="https://github.com/Dung-Kathy" target="_blank" rel="noopener" aria-label="GitHub">gh</a>
+        </div>
+      </aside>
+
+      <div class="profile-content animate-in delay-1">
+        <p class="eyebrow">Portfolio personnel</p>
+        <h1>Dung Vo</h1>
+        <p class="subtitle">Etudiante en informatique, passionnee par la data science, l'intelligence artificielle et le developpement web.</p>
+
+        <div class="education-list" aria-label="Formation principale">
+          <h2>Formation</h2>
+          <ul>
+            <li><strong>Sorbonne Universite</strong> - Licence Informatique, L3, 2023-2026</li>
+            <li><strong>Universite Paris-Saclay</strong> - Master Informatique pour la Science des Donnees, admission 2026</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="learn-more section reveal">
+      <h2>Learn more about my:</h2>
+      <div class="quick-links">
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Work Experience</a>
+        <a href="assets/DUNGVO_CV.pdf" target="_blank" rel="noopener">Resume</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </section>
+
+    <section id="projects" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Projects</h2>
+      </div>
+
+      <div class="project-grid">
+        <a class="project-card" href="https://github.com/Dung-Kathy/Aminus" target="_blank" rel="noopener">
+          <img src="assets/aminus.png" alt="Visuel du projet Aminus" class="project-image">
+          <span class="project-number">01</span>
+          <h3>Aminus</h3>
+          <p>Plug-in IA pour la detection des fraudes a la facturation, finaliste du hackathon Paris FinTech - HEC Paris.</p>
+          <ul class="tag-list">
+            <li>IA</li>
+            <li>FinTech</li>
+            <li>Hackathon</li>
+          </ul>
+        </a>
+
+        <a class="project-card" href="https://github.com/Dung-Kathy/health_hackathon" target="_blank" rel="noopener">
+          <img src="assets/health-hackathon.png" alt="Visuel du projet Health Hackathon" class="project-image">
+          <span class="project-number">02</span>
+          <h3>Health Hackathon</h3>
+          <p>Analyse de donnees d'activite neuronale avec Python et Pandas, visualisations et exploration data science.</p>
+          <ul class="tag-list">
+            <li>Python</li>
+            <li>Pandas</li>
+            <li>Data Science</li>
+          </ul>
+        </a>
+
+        <a class="project-card" href="https://github.com/Dung-Kathy/wardrobe-wizard" target="_blank" rel="noopener">
+          <img src="assets/wardrobe-wizard.png" alt="Visuel du projet Wardrobe Wizard" class="project-image">
+          <span class="project-number">03</span>
+          <h3>Wardrobe Wizard</h3>
+          <p>Projet web creatif autour de l'organisation de garde-robe et de recommandations d'outfits.</p>
+          <ul class="tag-list">
+            <li>Web</li>
+            <li>JavaScript</li>
+            <li>UI</li>
+          </ul>
+        </a>
+      </div>
+    </section>
+
+    <section id="experience" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Background</p>
+        <h2>Work Experience</h2>
+      </div>
+
+      <div class="experience-list">
+        <article class="experience-card">
+          <div>
+            <h3>Sorbonne Universite - Stagiaire</h3>
+            <p>Juin 2025 - Aout 2025, Paris</p>
+          </div>
+          <ul>
+            <li>Developpement d'un outil generant automatiquement des emplois du temps universitaires au format .ics.</li>
+            <li>Backend Python avec Flask, donnees JSON, interface HTML, CSS et JavaScript.</li>
+            <li>Reflexion autour du stockage des donnees et de leur integration cloud.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <div>
+            <h3>Korean Cosmetics - Conseillere de vente</h3>
+            <p>Fevrier 2025 - Mars 2025, Paris</p>
+          </div>
+          <ul>
+            <li>Accueil, conseil personnalise, recommandations adaptees et gestion des ventes.</li>
+            <li>Communication, service client et travail en equipe.</li>
+          </ul>
+        </article>
+
+        <article class="experience-card">
+          <div>
+            <h3>Hanoi1988 - Barista et serveuse polyvalente</h3>
+            <p>Mars 2025 - Decembre 2026, Paris</p>
+          </div>
+          <ul>
+            <li>Prise de commandes, service en salle, encaissements et gestion simultanee de plusieurs taches.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section reveal">
+      <div class="section-heading">
+        <p class="eyebrow">Toolkit</p>
+        <h2>Skills</h2>
+      </div>
+
+      <div class="skills-grid">
+        <article class="skill-card">
+          <h3>Programmation</h3>
+          <ul class="badge-list">
+            <li>Python</li>
+            <li>SQL</li>
+            <li>C</li>
+            <li>Java</li>
+            <li>JavaScript</li>
+            <li>HTML</li>
+            <li>CSS</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <h3>Outils</h3>
+          <ul class="badge-list">
+            <li>Git</li>
+            <li>GitHub</li>
+            <li>Flask</li>
+            <li>Pandas</li>
+            <li>VS Code</li>
+            <li>Linux</li>
+            <li>Pack Office</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <h3>Domaines</h3>
+          <ul class="badge-list">
+            <li>Data Science</li>
+            <li>Intelligence artificielle</li>
+            <li>Developpement web</li>
+            <li>Algorithmique</li>
+            <li>Structures de donnees</li>
+            <li>Bases de donnees</li>
+          </ul>
+        </article>
+
+        <article class="skill-card">
+          <h3>Langues & certificats</h3>
+          <ul class="badge-list">
+            <li>Anglais C1</li>
+            <li>TOEIC 950/990</li>
+            <li>Vietnamien natif</li>
+            <li>Espagnol B1</li>
+            <li>Machine Learning - DeepLearning.AI</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section reveal contact-section">
+      <div class="section-heading">
+        <p class="eyebrow">Say hello</p>
+        <h2>Contact</h2>
+      </div>
+
+      <div class="contact-card">
+        <p>Tu veux discuter d'un projet data, IA ou web ? Je suis basee a Paris / Ile-de-France et disponible pour echanger.</p>
+        <div class="contact-actions">
+          <a class="button button-primary" href="mailto:dung.vonguyen.1102@gmail.com">Me contacter</a>
+          <a class="button button-secondary" href="https://www.linkedin.com/in/dung-vo-2328282a7/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="button button-secondary" href="https://github.com/Dung-Kathy" target="_blank" rel="noopener">GitHub</a>
+          <a class="button button-secondary" href="assets/DUNGVO_CV.pdf" target="_blank" rel="noopener">CV</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button class="back-to-top" type="button" aria-label="Retour en haut" data-back-to-top>&uarr;</button>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-year></span> Dung Vo. Portfolio personnel.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
